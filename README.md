@@ -70,6 +70,7 @@ The following image formats are supported:
 ## Known Limitations
 * Only supports grayscale images due to the use of npp::ImageCPU_8u_C1.
 * Input images must be readable by the FreeImage library.
+* Output images are png format
 
 ## Acknowledgements
 * NVIDIA for the NPP library.
